@@ -1,0 +1,10 @@
+[2019-11-28 23:40:40,824][    INFO] --- url: /SCU42588T42a40240533a8786c65026dcb0d614385c45b80c40ae7.send
+入参: {'send_key': 'SCU42588T42a40240533a8786c65026dcb0d614385c45b80c40ae7', 'text': '抢票情况通知', 'desp': '陈志兵'}
+请求方式: post
+ (logger.py:63)
+[2019-11-28 23:40:42,044][    INFO] --- 出参：b'{"errno":0,"errmsg":"success","dataset":"done"}' (logger.py:63)
+[2019-11-28 23:44:12,167][    INFO] --- url: /SCU42588T42a40240533a8786c65026dcb0d614385c45b80c40ae7.send
+入参: {'send_key': 'SCU42588T42a40240533a8786c65026dcb0d614385c45b80c40ae7', 'text': '列车正晚点', 'desp': '李思思'}
+请求方式: post
+ (logger.py:63)
+[2019-11-28 23:44:13,914][    INFO] --- 出参：b'{"errno":0,"errmsg":"success","dataset":"done"}' (logger.py:63)
