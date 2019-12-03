@@ -11,8 +11,6 @@ import os
 from pushBearConf import sendPushBear
 from ctypes import cdll
 
-_sopen = cdll.msvcrt._sopen
-_close = cdll.msvcrt._close
 _SH_DENYRW = 0x10
 
 class RunTask(object):
