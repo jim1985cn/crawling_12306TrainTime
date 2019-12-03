@@ -25,7 +25,7 @@ def sendPushBear(msg):
 			print(sendPushBearUrls)
 			data = {
     		   "send_key": configMap["pushbear_conf"]["send_key"].strip(),
-    		   "text": "抢票情况通知",
+    		   "text": "列车正晚点信息",
     		   "desp": msg
     		}
     		#以下方法测试老是报pushbear配置有误
@@ -48,4 +48,4 @@ def sendPushBear(msg):
 	
 
 if __name__ == '__main__':
-	sendPushBear("陈志兵")
+	sendPushBear("test123")
